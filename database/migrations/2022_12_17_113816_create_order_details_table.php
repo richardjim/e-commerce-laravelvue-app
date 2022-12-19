@@ -22,7 +22,7 @@ class CreateOrderDetailsTable extends Migration
             $table->string('address2');
             $table->string('city');
             $table->string('state')->nullable();
-            $table->string('zip');
+            $table->string('zipcode');
             $table->string('country_code');
             $table->timestamps();
         });
